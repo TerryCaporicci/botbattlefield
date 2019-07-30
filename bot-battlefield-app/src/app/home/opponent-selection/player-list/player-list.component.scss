@@ -1,0 +1,33 @@
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+player-list {
+    display: block;
+    width: 100%;
+
+    .mdl-list__item {
+        cursor: pointer;
+        opacity: 0;
+        animation-name: opacity;
+        animation-duration: 1s;
+        animation-delay: .5s;
+        animation-iteration-count: 1;
+        animation-fill-mode:forwards;
+        &.selected {
+            background: #3F51B5 !important;
+            * {
+                color: #fafafa;
+            }
+        }
+        &:hover {
+            background: #e0e0e0;
+        }
+    }
+}

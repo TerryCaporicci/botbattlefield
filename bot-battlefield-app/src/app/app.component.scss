@@ -1,0 +1,18 @@
+$white: #fafafa;
+$blue-light: #c5cae9;
+$blue-medium: #9fa8da;
+
+app {
+    .mdl-layout__content {
+
+        background: -moz-linear-gradient(-45deg, $white 1%, $blue-light 78%, $blue-medium 100%);
+        background: -webkit-linear-gradient(-45deg, $white 1%, $blue-light 78%, $blue-medium 100%);
+        background: linear-gradient(135deg, $white 1%, $blue-light 78%, $blue-medium 100%);
+    }
+
+    router {
+        display: flex;
+        min-height: 100%;
+        width: 100%;
+    }
+}

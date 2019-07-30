@@ -1,0 +1,12 @@
+@import "~material-design-lite/material.min.css";
+@import "~material-design-icons/iconfont/material-icons.css";
+@import "~dialog-polyfill/dist/dialog-polyfill.css";
+
+@import "./app/shared/dialog.component.scss";
+@import "./app/app.component.scss";
+@import "./app/login/login.component.scss";
+@import "./app/game/game.component.scss";
+@import "./app/home/home.component.scss";
+@import "./app/home/menu/menu.component.scss";
+@import "./app/home/opponent-selection/opponent-selection.component.scss";
+@import "./app/home/opponent-selection/player-list/player-list.component.scss";

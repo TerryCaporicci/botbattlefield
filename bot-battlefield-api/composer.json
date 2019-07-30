@@ -1,0 +1,9 @@
+{
+  "name": "administrateur/bot-battlefield-api",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Api\\": "src/"
+    }
+  }
+}

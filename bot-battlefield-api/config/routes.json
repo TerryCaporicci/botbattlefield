@@ -1,0 +1,30 @@
+{
+  "authorization_allow": {
+    "path": "/.*",
+    "action": "Api\\Controller\\AccessControlController::accessControl",
+    "methods": [
+      "OPTIONS"
+    ]
+  },
+  "players_showAll": {
+    "path": "/players",
+    "action": "Api\\Controller\\PlayersController::showAll",
+    "methods": [
+      "GET"
+    ]
+  },
+  "players_showOneByName": {
+    "path": "/players/([a-z@-Z\\d\\xC0-\\xFF_-]{3,16})",
+    "action": "Api\\Controller\\PlayersController::showOneByName",
+    "methods": [
+      "GET"
+    ]
+  },
+  "players_create": {
+    "path": "/players",
+    "action": "Api\\Controller\\PlayersController::create",
+    "methods": [
+      "POST"
+    ]
+  }
+}
